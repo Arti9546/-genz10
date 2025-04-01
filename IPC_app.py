@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 
 # Initialize Groq LLM
-GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = st.secrets["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"]
 llm = ChatGroq(model_name="llama-3.3-70b-versatile", api_key=GROQ_API_KEY)
 
 # Load Hugging Face embedding model
